@@ -599,7 +599,7 @@ export default function Submit() {
                 <div className="text-center">
                   <p className="text-neutral-500 text-xs flex items-center justify-center gap-1.5">
                     <FlaskConical className="w-3 h-3" />
-                    还需投入 {5 - potionStyle.length} 种素材
+                    还需投入 {5 - potionStyle.length} 次
                   </p>
                 </div>
               )}

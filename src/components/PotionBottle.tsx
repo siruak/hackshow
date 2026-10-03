@@ -29,7 +29,7 @@ export default function PotionBottle({ selectedStyles }: PotionBottleProps) {
           <linearGradient id="liquidGrad" x1="0%" y1="100%" x2="0%" y2="0%">
             {selected.map((s, i) => (
               <stop
-                key={s.key}
+                key={`${s.key}-${i}`}
                 offset={`${15 + i * 18}%`}
                 stopColor={s.color}
                 stopOpacity="0.85"
