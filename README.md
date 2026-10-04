@@ -46,6 +46,13 @@ HackShow 是一个面向黑客松场景的作品收集与宣发工具。参赛�
 发布：静态站点，托管在 MonkeyCode-AI 作品集
 页面在浏览器里跑，数据走 Supabase 的 hackathons / projects 表。
 
+## 边界与风险
+
+问题：图片上传体积过大
+处理：代码里做了压缩，超过 2MB 的图会自动缩小，不会撑爆存储
+问题：动画期间误操作
+处理：动画期间加了一层遮罩，所有按钮点不了，动画播完才恢复
+
 ## 快速开始
 
 直接打开：https://zmhkbtxo.sc.monkeycode-ai.online/
